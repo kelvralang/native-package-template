@@ -1,0 +1,4 @@
+package native_package_template
+
+@doc("Sample export; replace when creating a package from this template.")
+fn greeting() str

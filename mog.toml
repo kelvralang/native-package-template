@@ -1,0 +1,17 @@
+kind = "native"
+module = "github.com/moglang/native-package-template"
+import_name = "native_package_template"
+namespace = "github"
+name = "native-package-template"
+version = "0.1.0"
+license = "GPL-3.0-only"
+abi_version = 3
+mog_runtime = "^0.1.5"
+author = "Mog contributors"
+description = "Template repository for Mog native packages."
+repository = "https://github.com/moglang/native-package-template"
+dependencies = []
+
+[native]
+build = "cmake"
+targets = ["linux-x86_64-gnu", "linux-arm64-gnu", "macos-arm64"]
