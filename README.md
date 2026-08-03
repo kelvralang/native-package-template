@@ -8,3 +8,8 @@ API, implementation, tests, and supported-target list.
 The included workflow builds, validates, and tests Linux x64, Linux ARM64, and
 macOS ARM64 artifacts. A matching `v*` tag publishes those artifacts and a
 checksum file.
+
+```mog
+const packageTemplate = @import("github.com/moglang/native-package-template")
+print(packageTemplate.greeting())
+```
