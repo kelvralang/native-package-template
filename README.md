@@ -5,9 +5,9 @@ Before publishing, replace `native-package-template` and
 `native_package_template` throughout the repository, then replace the sample
 API, implementation, tests, and supported-target list.
 
-The included workflow builds, validates, and tests Linux x64, Linux ARM64, and
-macOS ARM64 artifacts. A matching `v*` tag publishes those artifacts and a
-checksum file.
+The small caller workflows use the versioned `moglang/package-actions@v1`
+contract to build, validate, and test Linux x64, Linux ARM64, and macOS ARM64
+artifacts. A matching `v*` tag publishes those artifacts and a checksum file.
 
 ```mog
 const packageTemplate = @import("github.com/moglang/native-package-template")
