@@ -13,10 +13,10 @@ concurrency:
 
 jobs:
   release:
-    uses: moglang/package-actions/.github/workflows/native-release.yml@v1
+    uses: kelvralang/package-actions/.github/workflows/native-release.yml@v1
     with:
       package_name: native-package-template
       runtime_ref: main
       targets: '["linux-x86_64-gnu","linux-arm64-gnu","macos-arm64"]'
-      test_fixture: tests/project.mog.toml.in
+      test_fixture: tests/project.kel.toml.in
       artifact_path: package.so

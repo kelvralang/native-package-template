@@ -1,0 +1,17 @@
+kind = "native"
+module = "github.com/kelvralang/native-package-template"
+import_name = "native_package_template"
+namespace = "github"
+name = "native-package-template"
+version = "0.2.0"
+license = "GPL-3.0-only"
+abi_version = 3
+kelvra_runtime = "^0.2.0"
+author = "Kelvra contributors"
+description = "Template repository for Kelvra native packages."
+repository = "https://github.com/kelvralang/native-package-template"
+dependencies = []
+
+[native]
+build = "cmake"
+targets = ["linux-x86_64-gnu", "linux-arm64-gnu", "macos-arm64"]
