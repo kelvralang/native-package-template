@@ -1,5 +1,0 @@
-const packageTemplate = @import("github.com/moglang/native-package-template")
-
-if (packageTemplate.greeting() != "Mog native package template") {
-    error("template native package greeting")
-}

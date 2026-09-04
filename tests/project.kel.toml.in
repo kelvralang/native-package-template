@@ -1,0 +1,6 @@
+kind = "project"
+name = "native-package-template-test"
+version = "0.0.0"
+
+[dependencies]
+"github.com/kelvralang/native-package-template" = { path = "__PACKAGE_PATH__", version = "0.2.0" }

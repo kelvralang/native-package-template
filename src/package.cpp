@@ -13,7 +13,7 @@ bool greeting(const ExprHostApi *, const ExprPackageValue *args, size_t argc,
     }
     return false;
   }
-  static constexpr char message[] = "Mog native package template";
+  static constexpr char message[] = "Kelvra native package template";
   result->kind = EXPR_PACKAGE_VALUE_STR;
   result->as.string_value = {message, sizeof(message) - 1};
   return true;

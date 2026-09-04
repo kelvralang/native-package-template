@@ -15,9 +15,9 @@ concurrency:
 
 jobs:
   compatibility:
-    uses: moglang/package-actions/.github/workflows/native-ci.yml@v1
+    uses: kelvralang/package-actions/.github/workflows/native-ci.yml@v2
     with:
       package_name: native-package-template
       runtime_ref: main
       targets: '["linux-x86_64-gnu","linux-arm64-gnu","macos-arm64"]'
-      test_fixture: tests/project.mog.toml.in
+      test_fixture: tests/project.kel.toml.in
