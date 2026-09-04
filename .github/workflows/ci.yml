@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   compatibility:
-    uses: kelvralang/package-actions/.github/workflows/native-ci.yml@v1
+    uses: kelvralang/package-actions/.github/workflows/native-ci.yml@v2
     with:
       package_name: native-package-template
       runtime_ref: main
